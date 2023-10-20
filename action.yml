@@ -41,11 +41,11 @@ inputs:
     description: 'Directory where Robot resources are located in the repository'
     required: true
     default: 'resources'    
-  robot_username_login:
+  robot_user_login:
     description: 'Enter the environment variable for your application login user name'
     required: true
     default: 'fulano@mail.com.br'    
-  robot_password_user:
+  robot_user_password:
     description: 'Enter the environment variable for your application login password'
     required: true
     default: '123456'        
@@ -77,7 +77,7 @@ runs:
         SCREEN_WIDTH: ${{ inputs.screen_width }}
         ROBOT_TESTS_DIR: ${{ inputs.robot_tests_dir }}
         ROBOT_REPORTS_DIR: ${{ inputs.robot_reports_dir }}
-        ROBOT_USERNAME_LOGIN: ${{ inputs.robot_username_login }}
-        ROBOT_PASSWORD_USER: ${{ inputs.robot_password_user }}
+        ROBOT_USER_LOGIN: ${{ inputs.robot_user_login }}
+        ROBOT_USER_PASSWORD: ${{ inputs.robot_user_password }}
         ROBOT_RESOURCES_DIR: ${{ inputs.robot_resources_dir }}
         ROBOT_RUNNER_IMAGE: ${{ inputs.robot_runner_image }}
