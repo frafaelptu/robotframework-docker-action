@@ -1,4 +1,4 @@
-name: 'Executar Projeto Robot'
+name: Executar Projeto Robot
 description: 'Executar testes robot'
 inputs:
   allowed_shared_memory:
