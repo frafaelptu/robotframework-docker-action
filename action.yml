@@ -1,4 +1,4 @@
-name: '2023 Robot Framework'
+name: 'RFW Actions 2023'
 description: 'Run Robot Framework tests'
 inputs:
   allowed_shared_memory:
