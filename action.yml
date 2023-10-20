@@ -61,8 +61,8 @@ inputs:
 
 runs:
   using: 'composite'
-  steps:
-    - name: Set Permissions for Script
+  steps:    
+    - shell: bash
       run: chmod +x ${{ github.action_path }}/test.sh
     - shell: bash
       run: ${{ github.action_path }}/test.sh
