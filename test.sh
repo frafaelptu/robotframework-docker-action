@@ -5,6 +5,7 @@ RESOURCES_DIR=$(pwd)/$ROBOT_RESOURCES_DIR
 sudo mkdir $REPORTS_DIR && sudo chmod 777 $REPORTS_DIR
 
 #Variables
+#--user $(id -u):$(id -g) \
 docker run --shm-size=$ALLOWED_SHARED_MEMORY \
   -e BROWSER=$BROWSER \
   -e ROBOT_THREADS=$ROBOT_THREADS \
@@ -14,6 +15,5 @@ docker run --shm-size=$ALLOWED_SHARED_MEMORY \
   -e ROBOT_PASSWORD_USER="$ROBOT_PASSWORD_USER" \
   -v $REPORTS_DIR:/opt/robotframework/reports:Z \
   -v $TESTS_DIR:/opt/robotframework/tests:Z \
-  -v $RESOURCES_DIR:/opt/robotframework/resources:Z \  
-  --user $(id -u):$(id -g) \
+  -v $RESOURCES_DIR:/opt/robotframework/resources:Z \
   $ROBOT_RUNNER_IMAGE
