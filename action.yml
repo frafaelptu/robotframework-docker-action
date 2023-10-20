@@ -1,4 +1,4 @@
-name: 'RFW Actions 2023'
+name: 'Robot AsapLog'
 description: 'Run Robot Framework tests'
 inputs:
   allowed_shared_memory:
