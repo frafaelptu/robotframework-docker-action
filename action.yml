@@ -1,5 +1,5 @@
 name: 'Robot logs actions'
-description: 'Run Robot Framework tests'
+description: 'Run RoboFramework tests'
 inputs:
   allowed_shared_memory:
     description: 'Shared memory that Docker container is allowed to use'
