@@ -1,4 +1,4 @@
-name: 'Robot AsapLog'
+name: 'Robot logs actions'
 description: 'Run Robot Framework tests'
 inputs:
   allowed_shared_memory:
