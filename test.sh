@@ -4,6 +4,7 @@ TESTS_DIR=$(pwd)/$ROBOT_TESTS_DIR
 RESOURCES_DIR=$(pwd)/$ROBOT_RESOURCES_DIR
 sudo mkdir $REPORTS_DIR && sudo chmod 777 $REPORTS_DIR
 
+#Variables
 docker run --shm-size=$ALLOWED_SHARED_MEMORY \
   -e BROWSER=$BROWSER \
   -e ROBOT_THREADS=$ROBOT_THREADS \
