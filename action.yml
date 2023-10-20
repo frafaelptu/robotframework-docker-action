@@ -42,7 +42,7 @@ inputs:
     required: true
     default: 'resources'    
   robot_username_login:
-    description: 'Enter the environment variable for your application's login user name'
+    description: 'Enter the environment variable for your application login user name'
     required: true
     default: 'fulano@mail.com.br'    
   robot_password_user:
