@@ -11,8 +11,8 @@ docker run --shm-size=$ALLOWED_SHARED_MEMORY \
   -e ROBOT_THREADS=$ROBOT_THREADS \
   -e PABOT_OPTIONS="$PABOT_OPTIONS" \
   -e ROBOT_OPTIONS="$ROBOT_OPTIONS" \
-  -e ROBOT_USERNAME_LOGIN="$ROBOT_USERNAME_LOGIN" \
-  -e ROBOT_PASSWORD_USER="$ROBOT_PASSWORD_USER" \
+  -e ROBOT_USER_LOGIN="$ROBOT_USER_LOGIN" \
+  -e ROBOT_USER_PASSWORD="$ROBOT_USER_PASSWORD" \
   -v $REPORTS_DIR:/opt/robotframework/reports:Z \
   -v $TESTS_DIR:/opt/robotframework/tests:Z \
   -v $RESOURCES_DIR:/opt/robotframework/resources:Z \
