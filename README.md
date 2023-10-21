@@ -48,8 +48,8 @@ Available configurations in with block:
 | robot_tests_dir       | 'robot_tests'                       | Location of tests inside repository                  |
 | robot_reports_dir     | 'reports'                           | Location of report output from test execution        |
 | robot_resources_dir   | 'resources'                         | Location of report inside repository                 |
-| robot_user_login      | 'jonh@email.com.br'                 | Login user application                               |
-| robot_user_password   | '123456'                            | User password application                            |
+| robot_user_login      | 'john.doe@email.com.br'                 | Tested application user login                        |
+| robot_user_password   | '123456'                            | Tested application user password                     |
 | robot_runner_image    | 'ppodgorsek/robot-framework:latest' | Docker image which will be used to execute the tests |
 
 
