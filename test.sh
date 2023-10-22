@@ -4,7 +4,9 @@ REPORTS_DIR=$(pwd)/$ROBOT_REPORTS_DIR
 TESTS_DIR=$(pwd)/$ROBOT_TESTS_DIR
 RESOURCES_DIR=$(pwd)/$ROBOT_RESOURCES_DIR
 
-
+echo $REPORTS_DIR
+echo $TESTS_DIR
+echo $RESOURCES_DIR
 #Variables
 #--user $(id -u):$(id -g) \
 docker run --user $(id -u):$(id -g) --shm-size=$ALLOWED_SHARED_MEMORY \
